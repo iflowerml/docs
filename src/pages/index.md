@@ -13,7 +13,7 @@
 
       1. Works like other terminals, type in your commands and hit Return.
       2. Navigate command history with the `up` and `down` arrow keys.
-      3. Type `help` to get a quick list of available commands and features.
+      3. Type `help` to get a quick list of available [commands](basics/commands) and features.
 
    ## Gestures
 
@@ -32,13 +32,13 @@
 ![img](./basics/navigation/navigating-blink-shell-contextual-bar.jpg)
          In the bar you can: Create or Close a tab, access Snips, and toggle Lock and Geo.
 
-         Change the Contextual Menu appearance in the `…` menu.
+         Change the Context Bar appearance in the `…` menu.
 
 
    ## Keyboard shortcuts
 
       If you have a keyboard connected, press and hold `CMD ⌘` key to see available shortcuts.
-      ![img](./basics/navigation/navigating-blink-shell-image3.png)
+   ![img](./basics/navigation/navigating-blink-shell-image3.png)
 
 
    ## SMART KEYS
@@ -48,7 +48,7 @@
 **Smart Keys available:**
       1. Modifiers: `CTRL ^`, `ALT ⌥`, and `ESC ⎋`.
       2. Direction arrows.
-      3. Tap `CMD ⌘` to view functional keys.
+      3. Tap `CMD ⌘` to view functional keys. 
 <img src="/gifs/navigating-blink-shell-image4.gif" style={{maxWidth: "100%"}} />
 
    ## Configuration
@@ -57,13 +57,13 @@
 
       **The settings menu has the following:**
 
-      1. Host: create host that can be accessed with only the hostname. [Read more.](basics/hosts)
+      - Host: create hosts that can be accessed with only the hostname. [Read more.](basics/hosts)
 
-      2. Keys: Create SSH key pairs for a more secure, password-less access to your servers. [Read more.](basics/ssh-keys)
+      - Keys: Create SSH key pairs for a more secure, password-less access to your servers. [Read more.](basics/ssh-keys)
 
-      3. Appearance: Style your terminal with [themes](basics/customize#themes) and [fonts](basics/customize#fonts).
-      4. Keyboard: add different languages, toggle custom keyboards, re-assign key actions.
-      6. Get in contact with us through the Support or Feedback options.
+      - Appearance: Style your terminal with [themes](basics/customize#themes) and [fonts](basics/customize#fonts).
+      -  Keyboard: add different languages, toggle custom keyboards, re-assign key actions.
+      - Get in contact with us through the Support or Feedback options.
 
 ## Connecting to a Server or Computer using Blink
 
