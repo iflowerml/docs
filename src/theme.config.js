@@ -133,7 +133,7 @@ export default {
           Download Blink Shell App today!
         </span> 
         <a href="https://apps.apple.com/us/app/blink-shell-build-code/id1594898306"> 
-          <img src="/gifs/appstore-download-bttn.png" style={{maxWidth: "250px"}}/> 
+          <img src="/appstore-download-bttn.png" style={{maxWidth: "250px"}}/> 
         </a><br />
         <span style={{ fontWeight: 'bold', fontSize: '20px' }}>
             Contact Us
@@ -141,7 +141,7 @@ export default {
             <span style={{ fontSize: '17px' }}>{[
               <br key="br1" />, 
               <a href="http://discord.gg/ZTtMfvK">Discord Server</a>, <br key="br1" />,
-              <a href="http://github.com/blinksh/blink/discussions">GitHub discussions</a>, <br key="br1" />,
+              <a href="http://github.com/blinksh/blink/discussions">GitHub Discussions</a>, <br key="br1" />,
               <a href="http://blink.sh">Official Website</a>, <br key="br1" />,
               <a href="http://twitter.com/blinkshell">Twitter</a>,  <br key="br1" />, 
               <a href="http://reddit.com/r/BlinkShell">Reddit</a>, <br key="br1" />,
