@@ -22,7 +22,7 @@ Welcome! You can now start using Blink. Here is a quick tour:
 1. To create a new shell, tap the screen with two fingers ✌️.
 2. To switch between active shells, swipe side to side ⬅️👆➡️.
 3. To adjust size of current terminal, pinch the screen 👌.
-4. To start selection mode, Tap and drag 👆🔘🔼.
+4. To start selection mode, Double tap 👆👆.
 
    You can drag selections to other apps, or from other apps into Blink. It will be pasted where the cursor is located.
 
