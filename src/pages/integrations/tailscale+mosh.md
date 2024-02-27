@@ -34,12 +34,14 @@ Install and sign in to Tailscale on your iPad or iPhone. You can find the Tailsc
 Remember that Hostname or IP address you got in [Step 3](#step-3-take-note-of-your-hostname-or-ip-address)? Well, now’s the time to use it.
 To check that everything is working, let's start with establishing a ssh connection to the Tailscale node.
 
-Open the Blink app on your device, and in the Blink Shell run the command `ssh username@<hostname>` where `username` is your Tailscale user name, and `hostname` is your Tailscale Hostname or IP address.
+Open the Blink app on your device, and in the Blink Shell run the command `ssh username@<hostname>` where `username` is your remote machine’s username, and `hostname` is your Tailscale Hostname or IP address. You can run `tailscale ip`` to see the IP from step 3.
+
 
 Note that no authentication was required, as Tailscale is automatically using your tailnet identity to establish the SSH connection.
 
 ### Step 2: Mosh to your Tailscale Node
-Now, it is time to upgrade our connection to Mosh. Run the command `mosh --install-static <username>@hostname` where `username` and `hostname` are the same parameters you used before. Blink will automatically request permission to install mosh-server on your host, and set up everything for you.
+Now, it is time to upgrade our connection to Mosh. Run the command `mosh --install-static <username>@hostname` where `username` and `hostname` are the same parameters you used before. Blink will automatically request permission to install mosh-server on your host, and set up everything for you. **NOTE:** There is a known issue when bootstrapping mosh-server. It is currently being tracked and will have a fix with version 17.2.2! [See Issue #1963.](https://github.com/blinksh/blink/issues/1963)
+
 <img src="/gifs/install-static-mosh.gif" style={{maxWidth: "100%"}} />
 
 Going forward after installation, you only need to call `mosh <username>@hostname` as you may be used to.
